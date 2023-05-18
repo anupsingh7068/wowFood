@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.food-item {
+    margin-bottom: 40px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.food-item img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.food-item h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.food-item p {
+    margin-top: 10px;
+}
+
+.rating {
+    font-weight: bold;
+    margin-top: 10px;
+}
